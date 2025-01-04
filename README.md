@@ -35,11 +35,12 @@ Bu proje, belirli bir duygu analizi veri seti üzerinde 6 farklı model eğitile
 Proje gereksinimlerini yüklemek için aşağıdaki komutu çalıştırın:
 ```bash
 pip install -r requirements.txt
-
+```
 ### 2. Veri Setini İndirin ve Eğitim Yapın
 Proje, HuggingFace dair-ai/emotion veri seti ile çalışmaktadır. Eğitim işlemini başlatmak için:
 ```bash
 python main.py
+```
 Bu işlem sonunda eğitilmiş modeller ve TF-IDF vektörizer kaydedilecektir.
 
 ### 3. Arayüzü Çalıştırın
@@ -47,6 +48,7 @@ Eğitim sonrası sonuçları ve görselleri incelemek için Streamlit arayüzün
 
 bash
 ```python -m streamlit run ui.py
+```
 ## 📊 Arayüz Özellikleri
 Model Seçimi: Kullanıcı, 6 farklı modelden birini seçerek ilgili sonuçları görebilir.
 Görselleştirme:
@@ -63,6 +65,7 @@ Canlı Metin Analizi: Kullanıcı tarafından girilen bir metin analiz edilerek 
 ├── ui.py                        # Streamlit arayüzü
 ├── README.md                    # Proje hakkında bilgi
 └── tfidf_vectorizer.pkl         # Kaydedilmiş TF-IDF vektörizer
+```
 🤖 Modellerin Performansı
 Eğitim sırasında elde edilen sonuçlar, doğruluk oranları ve metrikler arayüzde detaylı şekilde sunulmaktadır. Örnek bir modelin başarısı:
 
@@ -76,7 +79,3 @@ Bu proje MIT Lisansı altında yayınlanmıştır. Detaylar için LICENSE dosyas
 
 ## ✨ Ekran Görüntüleri
 Arayüz:
-
-### Düzenlemeler
-- Kod blokları ve dizin yapısı düzgün biçimlendirilmiştir.
-- Ekran görüntüleri için bir `placeholder` bırakılmıştır. Gerçek bir ekran görüntüsüyle değiştirilebilir.
