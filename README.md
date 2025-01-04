@@ -46,8 +46,8 @@ Bu işlem sonunda eğitilmiş modeller ve TF-IDF vektörizer kaydedilecektir.
 ### 3. Arayüzü Çalıştırın
 Eğitim sonrası sonuçları ve görselleri incelemek için Streamlit arayüzünü başlatın:
 
-bash
-```python -m streamlit run ui.py
+```bash
+python -m streamlit run ui.py
 ```
 ## 📊 Arayüz Özellikleri
 Model Seçimi: Kullanıcı, 6 farklı modelden birini seçerek ilgili sonuçları görebilir.
