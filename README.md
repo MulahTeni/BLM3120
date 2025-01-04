@@ -5,7 +5,7 @@ Bu proje, belirli bir duygu analizi veri seti üzerinde 6 farklı model eğitile
 ---
 
 ## 🚀 Proje Özeti
-- **Hedef**: Kullanıcı yorumlarını duygu kategorilerine ayırmak. (Örn: mutluluk, üzüntü, korku, vb.)
+- **Hedef**: Kullanıcı yorumlarını duygu kategorilerine ayırmak. (üzüntü, mutluluk, aşk, sinir, korku, şaşkınlık)
 - **Modeller**:
   - Random Forest
   - Logistic Regression
@@ -15,7 +15,7 @@ Bu proje, belirli bir duygu analizi veri seti üzerinde 6 farklı model eğitile
   - Decision Tree
 - **Değerlendirme**:
   - Başarı oranları (accuracy), confusion matrix ve metrik görselleri arayüzde sunulmaktadır.
-  - En iyi model, doğruluk ve diğer metriklere göre belirlenmiştir.
+  - En iyi model, doğruluk ve diğer metriklere göre XGBoost olarak belirlenmiştir.
 
 ---
 
