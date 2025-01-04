@@ -1,0 +1,128 @@
+2025-01-04 12:02:45,814 - INFO - Dataset loaded successfully.
+2025-01-04 12:02:51,191 - INFO - All text preprocessed.
+2025-01-04 12:02:51,439 - INFO - Training Random Forest...
+2025-01-04 12:03:05,226 - INFO - Random Forest trained and saved successfully at model_weights/random_forest_model.pkl.
+2025-01-04 12:03:05,381 - INFO - Accuracy for Random Forest: 0.8870
+2025-01-04 12:03:05,388 - INFO - Classification Report for Random Forest:
+              precision    recall  f1-score   support
+
+     sadness       0.93      0.93      0.93       581
+         joy       0.91      0.91      0.91       695
+        love       0.76      0.73      0.74       159
+       anger       0.90      0.91      0.90       275
+        fear       0.82      0.90      0.86       224
+    surprise       0.68      0.59      0.63        66
+
+    accuracy                           0.89      2000
+   macro avg       0.84      0.83      0.83      2000
+weighted avg       0.89      0.89      0.89      2000
+
+
+2025-01-04 12:03:05,649 - INFO - Confusion matrix for Random Forest saved at model_plots/random_forest_confusion_matrix.png.
+2025-01-04 12:03:05,802 - INFO - Precision, Recall, and F1-Score bar chart for Random Forest saved at model_plots/random_forest_metrics_bar_chart.png.
+2025-01-04 12:03:05,980 - INFO - ROC curve for Random Forest saved at model_plots/random_forest_roc_curve.png.
+2025-01-04 12:03:05,980 - INFO - Training Logistic Regression...
+2025-01-04 12:03:22,382 - INFO - Logistic Regression trained and saved successfully at model_weights/logistic_regression_model.pkl.
+2025-01-04 12:03:22,418 - INFO - Accuracy for Logistic Regression: 0.8795
+2025-01-04 12:03:22,432 - INFO - Classification Report for Logistic Regression:
+              precision    recall  f1-score   support
+
+     sadness       0.91      0.93      0.92       581
+         joy       0.87      0.95      0.91       695
+        love       0.82      0.67      0.74       159
+       anger       0.88      0.84      0.86       275
+        fear       0.87      0.81      0.84       224
+    surprise       0.89      0.52      0.65        66
+
+    accuracy                           0.88      2000
+   macro avg       0.87      0.79      0.82      2000
+weighted avg       0.88      0.88      0.88      2000
+
+
+2025-01-04 12:03:22,677 - INFO - Confusion matrix for Logistic Regression saved at model_plots/logistic_regression_confusion_matrix.png.
+2025-01-04 12:03:22,836 - INFO - Precision, Recall, and F1-Score bar chart for Logistic Regression saved at model_plots/logistic_regression_metrics_bar_chart.png.
+2025-01-04 12:03:23,018 - INFO - ROC curve for Logistic Regression saved at model_plots/logistic_regression_roc_curve.png.
+2025-01-04 12:03:23,018 - INFO - Training XGBoost...
+2025-01-04 12:03:29,789 - INFO - XGBoost trained and saved successfully at model_weights/xgboost_model.pkl.
+2025-01-04 12:03:29,821 - INFO - Accuracy for XGBoost: 0.8890
+2025-01-04 12:03:29,829 - INFO - Classification Report for XGBoost:
+              precision    recall  f1-score   support
+
+     sadness       0.95      0.91      0.93       581
+         joy       0.89      0.92      0.90       695
+        love       0.76      0.80      0.78       159
+       anger       0.92      0.88      0.90       275
+        fear       0.87      0.88      0.88       224
+    surprise       0.64      0.68      0.66        66
+
+    accuracy                           0.89      2000
+   macro avg       0.84      0.85      0.84      2000
+weighted avg       0.89      0.89      0.89      2000
+
+
+2025-01-04 12:03:30,044 - INFO - Confusion matrix for XGBoost saved at model_plots/xgboost_confusion_matrix.png.
+2025-01-04 12:03:30,201 - INFO - Precision, Recall, and F1-Score bar chart for XGBoost saved at model_plots/xgboost_metrics_bar_chart.png.
+2025-01-04 12:03:30,382 - INFO - ROC curve for XGBoost saved at model_plots/xgboost_roc_curve.png.
+2025-01-04 12:03:30,382 - INFO - Training Naive Bayes...
+2025-01-04 12:03:30,391 - INFO - Naive Bayes trained and saved successfully at model_weights/naive_bayes_model.pkl.
+2025-01-04 12:03:30,400 - INFO - Accuracy for Naive Bayes: 0.7930
+2025-01-04 12:03:30,407 - INFO - Classification Report for Naive Bayes:
+              precision    recall  f1-score   support
+
+     sadness       0.78      0.94      0.85       581
+         joy       0.75      0.98      0.85       695
+        love       0.98      0.33      0.49       159
+       anger       0.92      0.62      0.74       275
+        fear       0.88      0.57      0.69       224
+    surprise       1.00      0.09      0.17        66
+
+    accuracy                           0.79      2000
+   macro avg       0.88      0.59      0.63      2000
+weighted avg       0.82      0.79      0.77      2000
+
+
+2025-01-04 12:03:30,614 - INFO - Confusion matrix for Naive Bayes saved at model_plots/naive_bayes_confusion_matrix.png.
+2025-01-04 12:03:30,990 - INFO - Precision, Recall, and F1-Score bar chart for Naive Bayes saved at model_plots/naive_bayes_metrics_bar_chart.png.
+2025-01-04 12:03:31,185 - INFO - ROC curve for Naive Bayes saved at model_plots/naive_bayes_roc_curve.png.
+2025-01-04 12:03:31,185 - INFO - Training K-Nearest Neighbors...
+2025-01-04 12:03:31,197 - INFO - K-Nearest Neighbors trained and saved successfully at model_weights/k-nearest_neighbors_model.pkl.
+2025-01-04 12:03:32,059 - INFO - Accuracy for K-Nearest Neighbors: 0.3570
+2025-01-04 12:03:32,068 - INFO - Classification Report for K-Nearest Neighbors:
+              precision    recall  f1-score   support
+
+     sadness       0.93      0.33      0.49       581
+         joy       0.89      0.29      0.43       695
+        love       0.89      0.16      0.27       159
+       anger       0.89      0.27      0.41       275
+        fear       0.15      0.94      0.25       224
+    surprise       0.78      0.21      0.33        66
+
+    accuracy                           0.36      2000
+   macro avg       0.75      0.37      0.36      2000
+weighted avg       0.81      0.36      0.41      2000
+
+
+2025-01-04 12:03:32,275 - INFO - Confusion matrix for K-Nearest Neighbors saved at model_plots/k-nearest_neighbors_confusion_matrix.png.
+2025-01-04 12:03:32,439 - INFO - Precision, Recall, and F1-Score bar chart for K-Nearest Neighbors saved at model_plots/k-nearest_neighbors_metrics_bar_chart.png.
+2025-01-04 12:03:32,621 - INFO - ROC curve for K-Nearest Neighbors saved at model_plots/k-nearest_neighbors_roc_curve.png.
+2025-01-04 12:03:32,621 - INFO - Training Decision Tree...
+2025-01-04 12:03:36,014 - INFO - Decision Tree trained and saved successfully at model_weights/decision_tree_model.pkl.
+2025-01-04 12:03:36,026 - INFO - Accuracy for Decision Tree: 0.8605
+2025-01-04 12:03:36,034 - INFO - Classification Report for Decision Tree:
+              precision    recall  f1-score   support
+
+     sadness       0.91      0.90      0.91       581
+         joy       0.90      0.87      0.89       695
+        love       0.69      0.74      0.71       159
+       anger       0.88      0.90      0.89       275
+        fear       0.79      0.84      0.82       224
+    surprise       0.61      0.58      0.59        66
+
+    accuracy                           0.86      2000
+   macro avg       0.80      0.80      0.80      2000
+weighted avg       0.86      0.86      0.86      2000
+
+
+2025-01-04 12:03:36,260 - INFO - Confusion matrix for Decision Tree saved at model_plots/decision_tree_confusion_matrix.png.
+2025-01-04 12:03:36,415 - INFO - Precision, Recall, and F1-Score bar chart for Decision Tree saved at model_plots/decision_tree_metrics_bar_chart.png.
+2025-01-04 12:03:36,595 - INFO - ROC curve for Decision Tree saved at model_plots/decision_tree_roc_curve.png.
