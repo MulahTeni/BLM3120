@@ -78,4 +78,10 @@ Herhangi bir iyileştirme öneriniz veya katkınız varsa, lütfen bir pull requ
 Bu proje MIT Lisansı altında yayınlanmıştır. Detaylar için LICENSE dosyasına göz atabilirsiniz.
 
 ## ✨ Ekran Görüntüleri
-Arayüz:
+### Arayüz:
+
+#### Model Seçimi Görüntüsü
+<img src="pictures/ss_1.PNG" alt="Model Performans Görüntüsü" width="700" height="400">
+
+#### Canlı Tahmin Görüntüsü
+<img src="pictures/ss_2.PNG" alt="Canlı Tahmin Görüntüsü" width="600" height="300">
